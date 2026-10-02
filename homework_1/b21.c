@@ -10,8 +10,8 @@ int main()
 		
 		for (char c = getchar();c!='.';c=getchar())
 		{
-			if (c>= 'A' && c <= 'Z')
-				putchar(c+0x20);
+			if (c>= 'a' && c <= 'z')
+				putchar(c | 0b00000000);
 			else 
 				putchar(c);
 		}
