@@ -14,7 +14,7 @@ int main()
 int is_prime(int n)
 {
 	int count = 0;
-	if(n==1)
+	if(n==1 && n==0)
 	{
 		printf("NO");
 	}

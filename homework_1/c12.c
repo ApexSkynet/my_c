@@ -19,7 +19,7 @@ int main()
 float sinus(float x)
 {
 	float s = 0.;
-	x = x * 3.1415/180;
+	//x = x * 3.1415/180;
 	for (int i = 0; i<=7; i++)
 	{
 		s += power(-1,i)*power(x,2*i+1)/factorial(2*i+1);
